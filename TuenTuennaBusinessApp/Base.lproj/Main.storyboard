@@ -1,24 +1,283 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Ij4-8t-An3">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--About Us-->
+        <scene sceneID="EZV-Bj-HDE">
+            <objects>
+                <viewController id="4cC-wM-ujf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="26S-98-06b">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="431"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="5Rs-k9-slC"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="About Us" image="Tab2" id="bn0-pF-vKE"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="j93-S3-g1Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3884" y="133.5832083958021"/>
+        </scene>
+        <!--Portfolio-->
+        <scene sceneID="BF5-Qc-SWe">
+            <objects>
+                <collectionViewController id="nJ4-tN-PlV" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="3rW-VM-UiU">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="431"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="4E9-Th-uet">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" misplaced="YES" id="HXH-RY-C1x">
+                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </view>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="nJ4-tN-PlV" id="gUh-76-wZB"/>
+                            <outlet property="delegate" destination="nJ4-tN-PlV" id="TwM-05-cFn"/>
+                        </connections>
+                    </collectionView>
+                    <tabBarItem key="tabBarItem" title="Portfolio" image="Tab4" id="J2j-bt-5rs"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bBB-c8-fn4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3158" y="913"/>
+        </scene>
+        <!--Contact Us-->
+        <scene sceneID="j77-yM-OWr">
+            <objects>
+                <viewController id="t5x-xP-rN5" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iBx-VV-J7O">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="431"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Ia1-Xy-Op2"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Contact Us" image="Tab5" id="LdS-Wc-O2a"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kkS-sh-oJU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2348" y="-577"/>
+        </scene>
+        <!--Home-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="367"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="hMd-QR-3Zy">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="367"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="bZ6-fh-jSj">
+                                <rect key="frame" x="16" y="20" width="288" height="327"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="YJo-P7-zio">
+                                        <rect key="frame" x="0.0" y="0.0" width="288" height="158.5"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="200" verticalHuggingPriority="200" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="nbI-F5-mcg">
+                                                <rect key="frame" x="0.0" y="0.0" width="288" height="75.5"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TuenTuenna Inc." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t2Y-AZ-lY5">
+                                                <rect key="frame" x="0.0" y="83.5" width="288" height="75"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="26"/>
+                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="fwK-SR-LV2">
+                                        <rect key="frame" x="0.0" y="168.5" width="288" height="158.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mnH-SJ-COP">
+                                                <rect key="frame" x="0.0" y="0.0" width="288" height="23.5"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                                <state key="normal" title="Services">
+                                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="services:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qZL-Wp-68s"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6vF-WQ-Qeq">
+                                                <rect key="frame" x="0.0" y="33.5" width="288" height="24"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                                <state key="normal" title="Portfolio">
+                                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="portforlio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xdr-3j-tob"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gHo-rz-Rut">
+                                                <rect key="frame" x="0.0" y="67.5" width="288" height="23.5"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                                <state key="normal" title="About Us">
+                                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="aboutUs:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KX0-6Q-8EY"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xBZ-Dh-TCi">
+                                                <rect key="frame" x="0.0" y="101" width="288" height="24"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                                <state key="normal" title="Contact Us">
+                                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="contactUs:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h4B-7d-KQb"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fUp-OB-wh7">
+                                                <rect key="frame" x="0.0" y="135" width="288" height="23.5"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                                <state key="normal" title="Social Links">
+                                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="hMd-QR-3Zy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="0ba-4J-1gt"/>
+                            <constraint firstItem="hMd-QR-3Zy" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="0db-fd-KAc"/>
+                            <constraint firstItem="hMd-QR-3Zy" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="74f-ep-du1"/>
+                            <constraint firstItem="bZ6-fh-jSj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="N48-AV-XZv"/>
+                            <constraint firstAttribute="bottom" secondItem="bZ6-fh-jSj" secondAttribute="bottom" constant="20" id="cPA-7O-0Wo"/>
+                            <constraint firstItem="hMd-QR-3Zy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="eHv-0o-5S0"/>
+                            <constraint firstAttribute="trailing" secondItem="bZ6-fh-jSj" secondAttribute="trailing" constant="16" id="fLF-Kr-AI1"/>
+                            <constraint firstItem="bZ6-fh-jSj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="zcq-Ze-ErA"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Home" id="DW3-0r-eIA"/>
+                    <connections>
+                        <outlet property="aboutUsButton" destination="gHo-rz-Rut" id="tPr-j8-qbZ"/>
+                        <outlet property="contactUsButton" destination="xBZ-Dh-TCi" id="J7A-xs-VmF"/>
+                        <outlet property="portfolioButton" destination="6vF-WQ-Qeq" id="d8T-0J-ieO"/>
+                        <outlet property="serviceButton" destination="mnH-SJ-COP" id="jxO-Sw-WL8"/>
+                        <outlet property="socialLinksButton" destination="fUp-OB-wh7" id="Lfo-3U-MOb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="2660" y="133.5832083958021"/>
+        </scene>
+        <!--Services-->
+        <scene sceneID="xH0-9O-vzH">
+            <objects>
+                <tableViewController id="guA-zU-gX6" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="6QK-2z-Q45">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="431"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="oCA-hw-n65">
+                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="oCA-hw-n65" id="1PI-h9-kwZ">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="guA-zU-gX6" id="eTd-k8-Y9q"/>
+                            <outlet property="delegate" destination="guA-zU-gX6" id="5ID-dK-zNP"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Services" image="Tab3" id="72j-4e-hLL"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nrw-pb-oEo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2348" y="913"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="lMN-9h-MjL">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Ij4-8t-An3" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="lbC-GC-DCF">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="WHa-fV-jYM" kind="relationship" relationship="viewControllers" id="ENH-Ys-Mrc"/>
+                        <segue destination="4cC-wM-ujf" kind="relationship" relationship="viewControllers" id="JwH-MC-mmV"/>
+                        <segue destination="guA-zU-gX6" kind="relationship" relationship="viewControllers" id="Ibf-Mq-vcQ"/>
+                        <segue destination="nJ4-tN-PlV" kind="relationship" relationship="viewControllers" id="3pO-ej-TNy"/>
+                        <segue destination="t5x-xP-rN5" kind="relationship" relationship="viewControllers" id="CAX-9s-Htp"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qga-nd-B9L" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1318" y="134"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="AqB-vj-kuT">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="WHa-fV-jYM" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" image="Tab1" id="izt-yv-WUF"/>
+                    <toolbarItems/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="blx-XZ-b79">
+                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.89013057947158813" green="0.89023441076278687" blue="0.89008277654647827" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="leC-m0-0gd"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hex-ZU-egI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2012" y="133.5832083958021"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Background" width="1920" height="1080"/>
+        <image name="Tab1" width="30" height="30"/>
+        <image name="Tab2" width="30" height="30"/>
+        <image name="Tab3" width="30" height="30"/>
+        <image name="Tab4" width="30" height="30"/>
+        <image name="Tab5" width="30" height="30"/>
+        <image name="logo" width="370" height="410"/>
+    </resources>
 </document>

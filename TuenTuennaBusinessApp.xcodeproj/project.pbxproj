@@ -438,11 +438,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 67XDG42679;
 				INFOPLIST_FILE = TuenTuennaBusinessApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Tuentuenna.TuenTuennaBusinessApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tuentuenna.BusinessApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -455,11 +456,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 67XDG42679;
 				INFOPLIST_FILE = TuenTuennaBusinessApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Tuentuenna.TuenTuennaBusinessApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tuentuenna.BusinessApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

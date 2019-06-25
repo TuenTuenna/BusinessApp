@@ -17,6 +17,35 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    self.serviceButton.layer.cornerRadius = 5;
+    self.portfolioButton.layer.cornerRadius = 5;
+    self.aboutUsButton.layer.cornerRadius = 5;
+    self.contactUsButton.layer.cornerRadius = 5;
+    self.socialLinksButton.layer.cornerRadius = 5;
+    
+}
+
+// 각각의 뷰에 Navigate 한다.
+- (IBAction)services:(id)sender {
+    
+    // UITabBarController 로 형변환하여 반환
+    [(UITabBarController *) self.tabBarController setSelectedIndex:2];
+}
+
+- (IBAction)portforlio:(id)sender {
+    // UITabBarController 로 형변환하여 반환
+    [(UITabBarController *) self.tabBarController setSelectedIndex:3];
+}
+
+- (IBAction)aboutUs:(id)sender {
+    // UITabBarController 로 형변환하여 반환
+    [(UITabBarController *) self.tabBarController setSelectedIndex:1];
+}
+
+- (IBAction)contactUs:(id)sender {
+    // UITabBarController 로 형변환하여 반환
+    [(UITabBarController *) self.tabBarController setSelectedIndex:4];
 }
 
 

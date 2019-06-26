@@ -24,7 +24,8 @@
     self.contactUsButton.layer.cornerRadius = 5;
     self.socialLinksButton.layer.cornerRadius = 5;
     
-    
+    // 뒤로가기 버튼 아이템 설정
+    [[self navigationItem] setBackBarButtonItem:[[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil]];
     
     
 }

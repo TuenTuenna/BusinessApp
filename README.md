@@ -15,4 +15,4 @@
 - sends an email
 - shows directions to a company
 
-![businessApp](https://user-images.githubusercontent.com/35421421/60160197-ceaf7180-982f-11e9-8748-6606c103f9d9.gif)
+![businessApp](https://user-images.githubusercontent.com/35421421/60191377-2f11d380-986f-11e9-842e-c2d42d4513f4.gif)

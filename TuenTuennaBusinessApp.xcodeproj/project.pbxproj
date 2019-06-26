@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A396AF822C3418F00B0F5FA /* AboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A396AF722C3418F00B0F5FA /* AboutUsViewController.m */; };
+		6A49C5C022C2DCF700D9B10D /* ServicesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A49C5BF22C2DCF700D9B10D /* ServicesTableViewController.m */; };
+		6A49C5C322C2DD2000D9B10D /* ServicesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A49C5C222C2DD2000D9B10D /* ServicesTableViewCell.m */; };
+		6A49C5C622C2DD4400D9B10D /* ServicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A49C5C522C2DD4400D9B10D /* ServicesViewController.m */; };
+		6A49C5C822C324A200D9B10D /* ServiceList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A49C5C722C324A200D9B10D /* ServiceList.plist */; };
 		6A50632D22C281FA00F099AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A50632C22C281FA00F099AA /* AppDelegate.m */; };
 		6A50633022C281FA00F099AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A50632F22C281FA00F099AA /* ViewController.m */; };
 		6A50633322C281FA00F099AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A50633122C281FA00F099AA /* Main.storyboard */; };
@@ -15,6 +20,8 @@
 		6A50633B22C281FC00F099AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A50633A22C281FC00F099AA /* main.m */; };
 		6A50634522C281FC00F099AA /* TuenTuennaBusinessAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A50634422C281FC00F099AA /* TuenTuennaBusinessAppTests.m */; };
 		6A50635022C281FC00F099AA /* TuenTuennaBusinessAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A50634F22C281FC00F099AA /* TuenTuennaBusinessAppUITests.m */; };
+		6A819AB122C347340070A773 /* PortfolioCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A819AB022C347340070A773 /* PortfolioCollectionViewController.m */; };
+		6A819AB422C348500070A773 /* PortfolioCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A819AB322C348500070A773 /* PortfolioCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6A396AF622C3418F00B0F5FA /* AboutUsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutUsViewController.h; sourceTree = "<group>"; };
+		6A396AF722C3418F00B0F5FA /* AboutUsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutUsViewController.m; sourceTree = "<group>"; };
+		6A49C5BE22C2DCF700D9B10D /* ServicesTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServicesTableViewController.h; sourceTree = "<group>"; };
+		6A49C5BF22C2DCF700D9B10D /* ServicesTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServicesTableViewController.m; sourceTree = "<group>"; };
+		6A49C5C122C2DD2000D9B10D /* ServicesTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServicesTableViewCell.h; sourceTree = "<group>"; };
+		6A49C5C222C2DD2000D9B10D /* ServicesTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServicesTableViewCell.m; sourceTree = "<group>"; };
+		6A49C5C422C2DD4400D9B10D /* ServicesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServicesViewController.h; sourceTree = "<group>"; };
+		6A49C5C522C2DD4400D9B10D /* ServicesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServicesViewController.m; sourceTree = "<group>"; };
+		6A49C5C722C324A200D9B10D /* ServiceList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ServiceList.plist; sourceTree = "<group>"; };
 		6A50632822C281FA00F099AA /* TuenTuennaBusinessApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuenTuennaBusinessApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A50632B22C281FA00F099AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6A50632C22C281FA00F099AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +67,10 @@
 		6A50634B22C281FC00F099AA /* TuenTuennaBusinessAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuenTuennaBusinessAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A50634F22C281FC00F099AA /* TuenTuennaBusinessAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TuenTuennaBusinessAppUITests.m; sourceTree = "<group>"; };
 		6A50635122C281FC00F099AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A819AAF22C347340070A773 /* PortfolioCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PortfolioCollectionViewController.h; sourceTree = "<group>"; };
+		6A819AB022C347340070A773 /* PortfolioCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PortfolioCollectionViewController.m; sourceTree = "<group>"; };
+		6A819AB222C348500070A773 /* PortfolioCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PortfolioCollectionViewCell.h; sourceTree = "<group>"; };
+		6A819AB322C348500070A773 /* PortfolioCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PortfolioCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +98,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A396AF522C3416C00B0F5FA /* AboutUs */ = {
+			isa = PBXGroup;
+			children = (
+				6A396AF622C3418F00B0F5FA /* AboutUsViewController.h */,
+				6A396AF722C3418F00B0F5FA /* AboutUsViewController.m */,
+			);
+			path = AboutUs;
+			sourceTree = "<group>";
+		};
+		6A49C5BD22C2DCAD00D9B10D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6A49C5BE22C2DCF700D9B10D /* ServicesTableViewController.h */,
+				6A49C5BF22C2DCF700D9B10D /* ServicesTableViewController.m */,
+				6A49C5C122C2DD2000D9B10D /* ServicesTableViewCell.h */,
+				6A49C5C222C2DD2000D9B10D /* ServicesTableViewCell.m */,
+				6A49C5C422C2DD4400D9B10D /* ServicesViewController.h */,
+				6A49C5C522C2DD4400D9B10D /* ServicesViewController.m */,
+				6A49C5C722C324A200D9B10D /* ServiceList.plist */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		6A50631F22C281FA00F099AA = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +149,9 @@
 				6A50632E22C281FA00F099AA /* ViewController.h */,
 				6A50632F22C281FA00F099AA /* ViewController.m */,
 				6A50633122C281FA00F099AA /* Main.storyboard */,
+				6A819AAE22C3468E0070A773 /* Portfolio */,
+				6A396AF522C3416C00B0F5FA /* AboutUs */,
+				6A49C5BD22C2DCAD00D9B10D /* Services */,
 				6A50633422C281FC00F099AA /* Assets.xcassets */,
 				6A50633622C281FC00F099AA /* LaunchScreen.storyboard */,
 				6A50633922C281FC00F099AA /* Info.plist */,
@@ -130,6 +176,17 @@
 				6A50635122C281FC00F099AA /* Info.plist */,
 			);
 			path = TuenTuennaBusinessAppUITests;
+			sourceTree = "<group>";
+		};
+		6A819AAE22C3468E0070A773 /* Portfolio */ = {
+			isa = PBXGroup;
+			children = (
+				6A819AAF22C347340070A773 /* PortfolioCollectionViewController.h */,
+				6A819AB022C347340070A773 /* PortfolioCollectionViewController.m */,
+				6A819AB222C348500070A773 /* PortfolioCollectionViewCell.h */,
+				6A819AB322C348500070A773 /* PortfolioCollectionViewCell.m */,
+			);
+			path = Portfolio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +292,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A49C5C822C324A200D9B10D /* ServiceList.plist in Resources */,
 				6A50633822C281FC00F099AA /* LaunchScreen.storyboard in Resources */,
 				6A50633522C281FC00F099AA /* Assets.xcassets in Resources */,
 				6A50633322C281FA00F099AA /* Main.storyboard in Resources */,
@@ -263,8 +321,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A50633022C281FA00F099AA /* ViewController.m in Sources */,
+				6A819AB422C348500070A773 /* PortfolioCollectionViewCell.m in Sources */,
 				6A50633B22C281FC00F099AA /* main.m in Sources */,
+				6A396AF822C3418F00B0F5FA /* AboutUsViewController.m in Sources */,
 				6A50632D22C281FA00F099AA /* AppDelegate.m in Sources */,
+				6A49C5C322C2DD2000D9B10D /* ServicesTableViewCell.m in Sources */,
+				6A49C5C622C2DD4400D9B10D /* ServicesViewController.m in Sources */,
+				6A49C5C022C2DCF700D9B10D /* ServicesTableViewController.m in Sources */,
+				6A819AB122C347340070A773 /* PortfolioCollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

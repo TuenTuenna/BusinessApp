@@ -1,10 +1,6 @@
 # BusinessApp
 ## simple business ios app
 
-- tapbar controller
-- table view
-- collection view
-
 #### used frameworks
 
 - MapKit: to draw map

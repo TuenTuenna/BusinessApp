@@ -28,6 +28,11 @@
 		6A72350122C3A170000F49FC /* MapPin.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A72350022C3A170000F49FC /* MapPin.m */; };
 		6A819AB122C347340070A773 /* PortfolioCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A819AB022C347340070A773 /* PortfolioCollectionViewController.m */; };
 		6A819AB422C348500070A773 /* PortfolioCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A819AB322C348500070A773 /* PortfolioCollectionViewCell.m */; };
+		6A971DA222C3DAD900EB6C7F /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A971DA122C3DAD900EB6C7F /* WebKit.framework */; };
+		6AA883FB22C3CF880063162D /* SocialTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA883FA22C3CF880063162D /* SocialTableViewController.m */; };
+		6AA883FE22C3CF980063162D /* SocialTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA883FD22C3CF980063162D /* SocialTableViewCell.m */; };
+		6AA8840022C3D0290063162D /* Social.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6AA883FF22C3D0290063162D /* Social.plist */; };
+		6AA8840322C3D9900063162D /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA8840222C3D9900063162D /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +91,14 @@
 		6A819AB022C347340070A773 /* PortfolioCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PortfolioCollectionViewController.m; sourceTree = "<group>"; };
 		6A819AB222C348500070A773 /* PortfolioCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PortfolioCollectionViewCell.h; sourceTree = "<group>"; };
 		6A819AB322C348500070A773 /* PortfolioCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PortfolioCollectionViewCell.m; sourceTree = "<group>"; };
+		6A971DA122C3DAD900EB6C7F /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		6AA883F922C3CF880063162D /* SocialTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocialTableViewController.h; sourceTree = "<group>"; };
+		6AA883FA22C3CF880063162D /* SocialTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocialTableViewController.m; sourceTree = "<group>"; };
+		6AA883FC22C3CF980063162D /* SocialTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocialTableViewCell.h; sourceTree = "<group>"; };
+		6AA883FD22C3CF980063162D /* SocialTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocialTableViewCell.m; sourceTree = "<group>"; };
+		6AA883FF22C3D0290063162D /* Social.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Social.plist; sourceTree = "<group>"; };
+		6AA8840122C3D9900063162D /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		6AA8840222C3D9900063162D /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A971DA222C3DAD900EB6C7F /* WebKit.framework in Frameworks */,
 				6A357EA222C3B0B300794EB9 /* MessageUI.framework in Frameworks */,
 				6A357EA022C3B0A700794EB9 /* Accounts.framework in Frameworks */,
 				6A7234FE22C3952C000F49FC /* MapKit.framework in Frameworks */,
@@ -168,6 +182,7 @@
 				6A50632E22C281FA00F099AA /* ViewController.h */,
 				6A50632F22C281FA00F099AA /* ViewController.m */,
 				6A50633122C281FA00F099AA /* Main.storyboard */,
+				6AA883F822C3CF650063162D /* Social */,
 				6A7234F822C3943D000F49FC /* ContactUs */,
 				6A819AAE22C3468E0070A773 /* Portfolio */,
 				6A396AF522C3416C00B0F5FA /* AboutUs */,
@@ -214,6 +229,7 @@
 		6A7234FC22C3952C000F49FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6A971DA122C3DAD900EB6C7F /* WebKit.framework */,
 				6A357EA122C3B0B300794EB9 /* MessageUI.framework */,
 				6A357E9F22C3B0A700794EB9 /* Accounts.framework */,
 				6A7234FD22C3952C000F49FC /* MapKit.framework */,
@@ -230,6 +246,20 @@
 				6A819AB322C348500070A773 /* PortfolioCollectionViewCell.m */,
 			);
 			path = Portfolio;
+			sourceTree = "<group>";
+		};
+		6AA883F822C3CF650063162D /* Social */ = {
+			isa = PBXGroup;
+			children = (
+				6AA883F922C3CF880063162D /* SocialTableViewController.h */,
+				6AA883FA22C3CF880063162D /* SocialTableViewController.m */,
+				6AA883FC22C3CF980063162D /* SocialTableViewCell.h */,
+				6AA883FD22C3CF980063162D /* SocialTableViewCell.m */,
+				6AA883FF22C3D0290063162D /* Social.plist */,
+				6AA8840122C3D9900063162D /* WebViewController.h */,
+				6AA8840222C3D9900063162D /* WebViewController.m */,
+			);
+			path = Social;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -336,6 +366,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A49C5C822C324A200D9B10D /* ServiceList.plist in Resources */,
+				6AA8840022C3D0290063162D /* Social.plist in Resources */,
 				6A50633822C281FC00F099AA /* LaunchScreen.storyboard in Resources */,
 				6A50633522C281FC00F099AA /* Assets.xcassets in Resources */,
 				6A50633322C281FA00F099AA /* Main.storyboard in Resources */,
@@ -364,6 +395,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A50633022C281FA00F099AA /* ViewController.m in Sources */,
+				6AA8840322C3D9900063162D /* WebViewController.m in Sources */,
 				6A819AB422C348500070A773 /* PortfolioCollectionViewCell.m in Sources */,
 				6A50633B22C281FC00F099AA /* main.m in Sources */,
 				6A357E9E22C3AE0200794EB9 /* EmailViewController.m in Sources */,
@@ -373,7 +405,9 @@
 				6A7234FB22C3946E000F49FC /* ContactUsViewController.m in Sources */,
 				6A49C5C322C2DD2000D9B10D /* ServicesTableViewCell.m in Sources */,
 				6A49C5C622C2DD4400D9B10D /* ServicesViewController.m in Sources */,
+				6AA883FB22C3CF880063162D /* SocialTableViewController.m in Sources */,
 				6A49C5C022C2DCF700D9B10D /* ServicesTableViewController.m in Sources */,
+				6AA883FE22C3CF980063162D /* SocialTableViewCell.m in Sources */,
 				6A819AB122C347340070A773 /* PortfolioCollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

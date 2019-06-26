@@ -5,7 +5,7 @@
 
 - MapKit: to draw map
 - Accounts: to check if user can send email
-- MessageUi: to send email
+- MessageUi: to compose and send email  
 
 #### features
 

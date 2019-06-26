@@ -15,4 +15,4 @@
 - shows directions to a company
 - shows websites
 
-![businessApp](https://user-images.githubusercontent.com/35421421/60191377-2f11d380-986f-11e9-842e-c2d42d4513f4.gif)
+![businessApp](https://user-images.githubusercontent.com/35421421/60203378-7906b380-9887-11e9-9640-273916340f24.gif)

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A357E9E22C3AE0200794EB9 /* EmailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A357E9D22C3AE0200794EB9 /* EmailViewController.m */; };
+		6A357EA022C3B0A700794EB9 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A357E9F22C3B0A700794EB9 /* Accounts.framework */; };
+		6A357EA222C3B0B300794EB9 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A357EA122C3B0B300794EB9 /* MessageUI.framework */; };
 		6A396AF822C3418F00B0F5FA /* AboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A396AF722C3418F00B0F5FA /* AboutUsViewController.m */; };
 		6A49C5C022C2DCF700D9B10D /* ServicesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A49C5BF22C2DCF700D9B10D /* ServicesTableViewController.m */; };
 		6A49C5C322C2DD2000D9B10D /* ServicesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A49C5C222C2DD2000D9B10D /* ServicesTableViewCell.m */; };
@@ -20,6 +23,9 @@
 		6A50633B22C281FC00F099AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A50633A22C281FC00F099AA /* main.m */; };
 		6A50634522C281FC00F099AA /* TuenTuennaBusinessAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A50634422C281FC00F099AA /* TuenTuennaBusinessAppTests.m */; };
 		6A50635022C281FC00F099AA /* TuenTuennaBusinessAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A50634F22C281FC00F099AA /* TuenTuennaBusinessAppUITests.m */; };
+		6A7234FB22C3946E000F49FC /* ContactUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7234FA22C3946E000F49FC /* ContactUsViewController.m */; };
+		6A7234FE22C3952C000F49FC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7234FD22C3952C000F49FC /* MapKit.framework */; };
+		6A72350122C3A170000F49FC /* MapPin.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A72350022C3A170000F49FC /* MapPin.m */; };
 		6A819AB122C347340070A773 /* PortfolioCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A819AB022C347340070A773 /* PortfolioCollectionViewController.m */; };
 		6A819AB422C348500070A773 /* PortfolioCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A819AB322C348500070A773 /* PortfolioCollectionViewCell.m */; };
 /* End PBXBuildFile section */
@@ -42,6 +48,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6A357E9C22C3AE0200794EB9 /* EmailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmailViewController.h; sourceTree = "<group>"; };
+		6A357E9D22C3AE0200794EB9 /* EmailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmailViewController.m; sourceTree = "<group>"; };
+		6A357E9F22C3B0A700794EB9 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		6A357EA122C3B0B300794EB9 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		6A396AF622C3418F00B0F5FA /* AboutUsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutUsViewController.h; sourceTree = "<group>"; };
 		6A396AF722C3418F00B0F5FA /* AboutUsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutUsViewController.m; sourceTree = "<group>"; };
 		6A49C5BE22C2DCF700D9B10D /* ServicesTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServicesTableViewController.h; sourceTree = "<group>"; };
@@ -67,6 +77,11 @@
 		6A50634B22C281FC00F099AA /* TuenTuennaBusinessAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuenTuennaBusinessAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A50634F22C281FC00F099AA /* TuenTuennaBusinessAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TuenTuennaBusinessAppUITests.m; sourceTree = "<group>"; };
 		6A50635122C281FC00F099AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A7234F922C3946E000F49FC /* ContactUsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactUsViewController.h; sourceTree = "<group>"; };
+		6A7234FA22C3946E000F49FC /* ContactUsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactUsViewController.m; sourceTree = "<group>"; };
+		6A7234FD22C3952C000F49FC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		6A7234FF22C3A170000F49FC /* MapPin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapPin.h; sourceTree = "<group>"; };
+		6A72350022C3A170000F49FC /* MapPin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapPin.m; sourceTree = "<group>"; };
 		6A819AAF22C347340070A773 /* PortfolioCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PortfolioCollectionViewController.h; sourceTree = "<group>"; };
 		6A819AB022C347340070A773 /* PortfolioCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PortfolioCollectionViewController.m; sourceTree = "<group>"; };
 		6A819AB222C348500070A773 /* PortfolioCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PortfolioCollectionViewCell.h; sourceTree = "<group>"; };
@@ -78,6 +93,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A357EA222C3B0B300794EB9 /* MessageUI.framework in Frameworks */,
+				6A357EA022C3B0A700794EB9 /* Accounts.framework in Frameworks */,
+				6A7234FE22C3952C000F49FC /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,6 +146,7 @@
 				6A50634322C281FC00F099AA /* TuenTuennaBusinessAppTests */,
 				6A50634E22C281FC00F099AA /* TuenTuennaBusinessAppUITests */,
 				6A50632922C281FA00F099AA /* Products */,
+				6A7234FC22C3952C000F49FC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -149,6 +168,7 @@
 				6A50632E22C281FA00F099AA /* ViewController.h */,
 				6A50632F22C281FA00F099AA /* ViewController.m */,
 				6A50633122C281FA00F099AA /* Main.storyboard */,
+				6A7234F822C3943D000F49FC /* ContactUs */,
 				6A819AAE22C3468E0070A773 /* Portfolio */,
 				6A396AF522C3416C00B0F5FA /* AboutUs */,
 				6A49C5BD22C2DCAD00D9B10D /* Services */,
@@ -176,6 +196,29 @@
 				6A50635122C281FC00F099AA /* Info.plist */,
 			);
 			path = TuenTuennaBusinessAppUITests;
+			sourceTree = "<group>";
+		};
+		6A7234F822C3943D000F49FC /* ContactUs */ = {
+			isa = PBXGroup;
+			children = (
+				6A7234F922C3946E000F49FC /* ContactUsViewController.h */,
+				6A7234FA22C3946E000F49FC /* ContactUsViewController.m */,
+				6A7234FF22C3A170000F49FC /* MapPin.h */,
+				6A72350022C3A170000F49FC /* MapPin.m */,
+				6A357E9C22C3AE0200794EB9 /* EmailViewController.h */,
+				6A357E9D22C3AE0200794EB9 /* EmailViewController.m */,
+			);
+			path = ContactUs;
+			sourceTree = "<group>";
+		};
+		6A7234FC22C3952C000F49FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A357EA122C3B0B300794EB9 /* MessageUI.framework */,
+				6A357E9F22C3B0A700794EB9 /* Accounts.framework */,
+				6A7234FD22C3952C000F49FC /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		6A819AAE22C3468E0070A773 /* Portfolio */ = {
@@ -323,8 +366,11 @@
 				6A50633022C281FA00F099AA /* ViewController.m in Sources */,
 				6A819AB422C348500070A773 /* PortfolioCollectionViewCell.m in Sources */,
 				6A50633B22C281FC00F099AA /* main.m in Sources */,
+				6A357E9E22C3AE0200794EB9 /* EmailViewController.m in Sources */,
+				6A72350122C3A170000F49FC /* MapPin.m in Sources */,
 				6A396AF822C3418F00B0F5FA /* AboutUsViewController.m in Sources */,
 				6A50632D22C281FA00F099AA /* AppDelegate.m in Sources */,
+				6A7234FB22C3946E000F49FC /* ContactUsViewController.m in Sources */,
 				6A49C5C322C2DD2000D9B10D /* ServicesTableViewCell.m in Sources */,
 				6A49C5C622C2DD4400D9B10D /* ServicesViewController.m in Sources */,
 				6A49C5C022C2DCF700D9B10D /* ServicesTableViewController.m in Sources */,

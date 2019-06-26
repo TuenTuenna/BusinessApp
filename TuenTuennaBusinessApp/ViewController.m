@@ -23,7 +23,6 @@
     self.aboutUsButton.layer.cornerRadius = 5;
     self.contactUsButton.layer.cornerRadius = 5;
     self.socialLinksButton.layer.cornerRadius = 5;
-    
 }
 
 // 각각의 뷰에 Navigate 한다.
